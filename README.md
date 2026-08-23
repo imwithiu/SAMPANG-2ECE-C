@@ -38,10 +38,10 @@ Example
 `make_username("Ana Maria", "De Leon")` --> "anamaria.deleon"
 
 The following functions and methods were used in this problem:
-• `.lower()` - A built-in string method that convert all letters to lowercase.
-• `.replace(" ", "")` - A built-in string method that replaces all spaces in the strings with an empty string.
-• `+ "." +` - the string concatenation operator used to combine the processed first name, a period, and the processed last name.
-• Variable Assignment - a method that reassigns the modified string back to the variable.
+- `.lower()` - A built-in string method that convert all letters to lowercase.
+- `.replace(" ", "")` - A built-in string method that replaces all spaces in the strings with an empty string.
+- `+ "." +` - the string concatenation operator used to combine the processed first name, a period, and the processed last name.
+- Variable Assignment - a method that reassigns the modified string back to the variable.
 
 
 Combining them all, the final function for this problem is as follows;
@@ -58,9 +58,9 @@ def make_username(first_name, last_name):
 # **C. Bookend Swap Problem**
 
 Create a function named swap_bookends() that accepts a list containing at least two elements. Unpack the list into three variables:
-• first – the first element;
-• middle – a list containing everything between the first and last elements; and
-• last – the last element.
+- first – the first element;
+- middle – a list containing everything between the first and last elements; and
+- last – the last element.
 Using these variables, return a new list in which the first and last elements have exchanged positions.
 The elements in middle must remain in their original order. Do not modify the input list.
 
@@ -68,8 +68,8 @@ Example
 `swap_bookends([1, 2, 3, 4, 5, 6])` --> "[6, 2, 3, 4, 5, 1]"
 
 The following functions and methods were used in this problem:
-• `first, *middle, last = items`- An extended sequence unpacking used to extract the first element, the middle elements as a list, and the last element. Note that the asterisk `*` before the variable `middle` collects those middle elements into a single sublist.
-• `last, *middle, first` - A list unpacking used to construct and return a new list with the swapped bookends.
+- `first, *middle, last = items`- An extended sequence unpacking used to extract the first element, the middle elements as a list, and the last element. Note that the asterisk `*` before the variable `middle` collects those middle elements into a single sublist.
+- `last, *middle, first` - A list unpacking used to construct and return a new list with the swapped bookends.
 
 
 Combining them all, the final function for this problem is as follows;
