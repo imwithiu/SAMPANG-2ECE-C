@@ -84,4 +84,4 @@ def swap_bookends(items):
 
 Thank you for reading! 
 
-To see the main python program for Programming Assignment 1, click this link https://github.com/imwithiu/ECE-2112-PA-1/blob/main/Programming%20Assignment%201.ipynb and download. Open on Jupyter Notebook, then run all cells.
+To see the main python program for Programming Assignment 1, click this [link](https://github.com/imwithiu/SAMPANG-2ECE-C/blob/main/%5BSAMPANG%5D2ECE-C.ipynb) and download. Open on Jupyter Notebook, then run all cells.
