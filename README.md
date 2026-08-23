@@ -25,7 +25,7 @@ def rotate_word(text):
     return text[1:] + text[0]
 ```
 
-# **B. Username Builder Program*
+# **B. Username Builder Program**
 
 Create a function named `make_username()` that accepts two strings: first_name and last_name.
 The function must:
