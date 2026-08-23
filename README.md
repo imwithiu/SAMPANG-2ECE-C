@@ -11,9 +11,9 @@ Create a function named `rotate_word()` that accepts a non-empty string. Move th
 Example: `rotate_word("Code")` --> "odeC"
 
 The following methods were used in this problem:
-• `text[1:]` - a string slicing method that extracts all characters starting from index 1 through the end of the string. The colon `:` at the end of the index 0 signifies that it extracts through the end.
-• `text[0]` - an initial character of the string that gets extracted.
-• `+` - the string concatenation operator used to join the substring `text[1:]` and the extracted character of the string `text[0]`.
+- `text[1:]` - a string slicing method that extracts all characters starting from index 1 through the end of the string. The colon `:` at the end of the index 0 signifies that it extracts through the end.
+- `text[0]` - an initial character of the string that gets extracted.
+- `+` - the string concatenation operator used to join the substring `text[1:]` and the extracted character of the string `text[0]`.
 
 
 These combined methods effectively defined the function `rotate_word(text)` to move the initial character of the string to the end of the substring.
